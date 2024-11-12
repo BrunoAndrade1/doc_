@@ -178,7 +178,7 @@ analyzer = DocumentAnalyzer()
 # Upload de arquivos
 uploaded_files = st.file_uploader(
     "Faça upload dos seus documentos",
-    type=['png', 'jpg', 'jpeg', 'pdf'],
+    type=['jpg'],
     accept_multiple_files=True
 )
 
